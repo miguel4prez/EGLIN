@@ -16,14 +16,23 @@
   }
 }
 
+html, body, #__next {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+
+main {
+  flex-grow: 1;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .scrollbar-w-2::-webkit-scrollbar {
@@ -55,4 +64,12 @@ body {
 
 .gradient {
   background: linear-gradient(90deg, #314fd8 0%, #8e97ff 100%);
+}
+
+.home-cols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }

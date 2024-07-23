@@ -1,0 +1,242 @@
+{
+  "laundrymats": [
+    {
+      "id": 1,
+      "name": "King's Wash and Dry",
+      "image": "https://media.architecturaldigest.com/photos/5af1e7e7c29da93330bbfe3c/16:9/w_2240,c_limit/retro-laundromat.jpg",
+      "address": "123 Bowling Lane",
+      "rating": 4.7,
+      "number_of_ratings": 50,
+      "distance": 0.5,
+      "services": ["Wash & Fold", "Dry Cleaning", "Self Service"],
+      "contact_number": "555-1234",
+      "working_hours": "7 AM - 10 PM",
+      "price_range": "$$",
+      "delivery_available": true,
+      "pick_up_available": true,
+      "approx_duration": 2,
+      "business_hours": {
+        "open": 7,
+        "close": 22
+      },
+      "services_items": [
+        {
+          "id": 1,
+          "name_of_service": "Wash and Dry Deluxe",
+          "price": 9.99,
+          "description": "A wash and dry service all for one price."
+        },
+        {
+          "id": 2,
+          "name_of_service": "The Dry",
+          "price": 4.99,
+          "description": "A simple dry service for when your dryer doesn't work"
+        },
+        {
+          "id": 3,
+          "name_of_service": "The Wash",
+          "price": 9.99,
+          "description": "Wash your clothes here for a minimum price of $9.99!"
+        },
+        {
+          "id": 4,
+          "name_of_service": "Dry Cleaning",
+          "price": 4.99,
+          "description": "We do dry cleaning for those nice clothes of yours!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Clean Machine Laundry",
+      "image": "https://media.architecturaldigest.com/photos/5af1e7e7c29da93330bbfe3c/16:9/w_2240,c_limit/retro-laundromat.jpg",
+      "address": "456 Laundry Street",
+      "rating": 4.5,
+      "number_of_ratings": 75,
+      "distance": 1.2,
+      "services": ["Wash & Fold", "Ironing"],
+      "contact_number": "555-5678",
+      "working_hours": "6 AM - 11 PM",
+      "price_range": "$",
+      "delivery_available": true,
+      "pick_up_available": false,
+      "approx_duration": 1.5,
+      "business_hours": {
+        "open": 6,
+        "close": 23
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sparkle & Shine Laundromat",
+      "image": "https://media.architecturaldigest.com/photos/5af1e7e7c29da93330bbfe3c/16:9/w_2240,c_limit/retro-laundromat.jpg",
+      "address": "789 Clean Avenue",
+      "rating": 4.8,
+      "number_of_ratings": 100,
+      "distance": 2.3,
+      "services": ["Dry Cleaning", "Self Service", "Ironing"],
+      "contact_number": "555-9101",
+      "working_hours": "8 AM - 9 PM",
+      "price_range": "$$$",
+      "delivery_available": false,
+      "pick_up_available": true,
+      "approx_duration": 3,
+      "business_hours": {
+        "open": 8,
+        "close": 21
+      }
+    },
+    {
+      "id": 4,
+      "name": "Fresh & Clean Laundry",
+      "image": "https://media.architecturaldigest.com/photos/5af1e7e7c29da93330bbfe3c/16:9/w_2240,c_limit/retro-laundromat.jpg",
+      "address": "101 Wash Way",
+      "rating": 4.6,
+      "number_of_ratings": 65,
+      "distance": 3.0,
+      "services": ["Wash & Fold", "Dry Cleaning", "Self Service", "Ironing"],
+      "contact_number": "555-1122",
+      "working_hours": "24 Hours",
+      "price_range": "$",
+      "delivery_available": true,
+      "pick_up_available": false,
+      "approx_duration": 2,
+      "business_hours": {
+        "open": 0,
+        "close": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "Bubble Town Laundromat",
+      "image": "https://media.architecturaldigest.com/photos/5af1e7e7c29da93330bbfe3c/16:9/w_2240,c_limit/retro-laundromat.jpg",
+      "address": "202 Bubble Blvd",
+      "rating": 4.9,
+      "number_of_ratings": 80,
+      "distance": 0.8,
+      "services": ["Wash & Fold", "Ironing"],
+      "contact_number": "555-3344",
+      "working_hours": "5 AM - 11 PM",
+      "price_range": "$$",
+      "delivery_available": true,
+      "pick_up_available": true,
+      "approx_duration": 5,
+      "business_hours": {
+        "open": 5,
+        "close": 23
+      }
+    },
+    {
+      "id": 6,
+      "name": "Laundry Express",
+      "image": "https://media.architecturaldigest.com/photos/5af1e7e7c29da93330bbfe3c/16:9/w_2240,c_limit/retro-laundromat.jpg",
+      "address": "303 Quick Wash Drive",
+      "rating": 4.3,
+      "number_of_ratings": 45,
+      "distance": 1.5,
+      "services": ["Wash & Fold", "Dry Cleaning", "Self Service", "Ironing"],
+      "contact_number": "555-2233",
+      "working_hours": "6 AM - 10 PM",
+      "price_range": "$$",
+      "delivery_available": true,
+      "pick_up_available": true,
+      "approx_duration": 2,
+      "business_hours": {
+        "open": 6,
+        "close": 22
+      }
+    },
+    {
+      "id": 7,
+      "name": "Super Clean Laundromat",
+      "image": "https://media.architecturaldigest.com/photos/5af1e7e7c29da93330bbfe3c/16:9/w_2240,c_limit/retro-laundromat.jpg",
+      "address": "404 Sparkle Street",
+      "rating": 4.4,
+      "number_of_ratings": 60,
+      "distance": 0.9,
+      "services": ["Wash & Fold", "Self Service", "Ironing"],
+      "contact_number": "555-4455",
+      "working_hours": "5 AM - 11 PM",
+      "price_range": "$",
+      "delivery_available": false,
+      "pick_up_available": true,
+      "approx_duration": 2,
+      "business_hours": {
+        "open": 5,
+        "close": 23
+      }
+    },
+    {
+      "id": 8,
+      "name": "Eco Green Laundry",
+      "image": "https://media.architecturaldigest.com/photos/5af1e7e7c29da93330bbfe3c/16:9/w_2240,c_limit/retro-laundromat.jpg",
+      "address": "505 Greenway Blvd",
+      "rating": 4.6,
+      "number_of_ratings": 85,
+      "distance": 2.0,
+      "services": ["Wash & Fold", "Dry Cleaning", "Self Service", "Ironing"],
+      "contact_number": "555-5566",
+      "working_hours": "7 AM - 10 PM",
+      "price_range": "$$",
+      "delivery_available": true,
+      "pick_up_available": false,
+      "approx_duration": 3,
+      "business_hours": {
+        "open": 7,
+        "close": 22
+      }
+    },
+    {
+      "id": 9,
+      "name": "Quick & Clean Laundry",
+      "image": "https://media.architecturaldigest.com/photos/5af1e7e7c29da93330bbfe3c/16:9/w_2240,c_limit/retro-laundromat.jpg",
+      "address": "606 Speedy Way",
+      "rating": 4.2,
+      "number_of_ratings": 30,
+      "distance": 1.8,
+      "services": ["Wash & Fold", "Dry Cleaning"],
+      "contact_number": "555-6677",
+      "working_hours": "6 AM - 9 PM",
+      "price_range": "$",
+      "delivery_available": false,
+      "pick_up_available": false,
+      "approx_duration": 2,
+      "business_hours": {
+        "open": 6,
+        "close": 21
+      }
+    },
+    {
+      "id": 10,
+      "name": "Prime Laundry Services",
+      "image": "https://media.architecturaldigest.com/photos/5af1e7e7c29da93330bbfe3c/16:9/w_2240,c_limit/retro-laundromat.jpg",
+      "address": "707 Main Street",
+      "rating": 4.8,
+      "number_of_ratings": 95,
+      "distance": 0.6,
+      "services": ["Wash & Fold", "Dry Cleaning", "Self Service", "Ironing"],
+      "contact_number": "555-7788",
+      "working_hours": "24 Hours",
+      "price_range": "$$$",
+      "delivery_available": true,
+      "pick_up_available": true,
+      "approx_duration": 1.5,
+      "business_hours": {
+        "open": 0,
+        "close": 0
+      }
+    }
+  ], 
+  "users": [
+    {
+      "id": 1,
+      "name": "Michael Rivera",
+      "image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "address": "123 Bowling Lane",
+      "state": "New York",
+      "city": "New York",
+      "country": "USA",
+      "orders": []
+    }
+  ]
+}
