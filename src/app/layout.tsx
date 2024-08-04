@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer'
 import './globals.css';
+import { CartProvider } from '@/context/ShoppingCart';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,13 +17,15 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
       <head>
         {/* Head content here */}
       </head>
-      <body className={`${inter.className} bg-gray-100 min-h-screen`}>
-        <Navbar />
-        <main>
-          {children}
-        </main>
-        <Footer />
-      </body>
+      <CartProvider>
+        <body className={`${inter.className} bg-gray-100 min-h-screen`}>
+          <Navbar />
+          <main>
+            {children}
+          </main>
+          <Footer />
+        </body>
+      </CartProvider>
     </html>
   );
 };

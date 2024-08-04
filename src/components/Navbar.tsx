@@ -2,8 +2,7 @@
 import React from "react";
 import { cn } from "@/utils/cn";
 import Link from "next/link"
-import Cart from "@/components/Cart";
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+// import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 
 export default function Navbar() {
@@ -75,9 +74,9 @@ export default function Navbar() {
             </button>   
           </Link>
 
-          <button className="text-white bg-blue-600 rounded-lg p-2">View Cart <ShoppingCartIcon /> </button>
+          {/* <button className="text-white bg-blue-600 rounded-lg p-2">View Cart <ShoppingCartIcon /> </button> */}
 
-          <Cart />
+          
 
         </div>
 
